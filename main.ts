@@ -18,5 +18,3 @@ app.get('/', (req: Request, res: Response) => {
 app.get('/commit', (req: Request, res: Response) => {
     res.sendFile(path.join(__dirname, '/view/commit.html'));
 });
-
-app.listen(4000);
