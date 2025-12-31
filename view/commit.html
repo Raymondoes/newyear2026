@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year!</title>
+    <link rel="stylesheet" href="css/external.css">
+    <link rel="icon shortcut" type="x-icon" href="images/2026.png">
+</head>
+<body id="wish">
+    <div id="title">
+        <h1>It's 2026! Send a message to yourself, and commit.</h1>
+    </div>
+    <div style="justify-self: center; margin-top: 40px; display: grid;">
+        <form action="POST">
+            <input type="text" id="commitfill" placeholder="write a Commitment for the future.">
+        </form>
+        <button id="commitbutton" onclick="commit()" style="margin-top: 20px; justify-self: center;">Commit</button>
+    </div>
+    <h1 id="commitment-text"></h1>
+    <script src="scripts/scripts.js"> </script>
+</body>
+</html>

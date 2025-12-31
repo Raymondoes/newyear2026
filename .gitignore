@@ -1,0 +1,8 @@
+# GITIGNORE DECEMBER 31 2025 LAST UPDATED 10:57 PM WESTERN INDONESIAN TIME
+
+# Node Modules
+/node_modules
+
+# ENV
+
+*.env
